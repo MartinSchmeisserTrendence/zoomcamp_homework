@@ -7,3 +7,13 @@ db:5433
 East Harlem North, East Harlem South, Morningside Heights
 JFK Airport
 terraform init, terraform apply -auto-approve, terraform destroy
+
+
+
+------------------------ 02-kaestra ------------------------
+
+128.3 MB
+green_tripdata_2020-04.csv
+
+
+
