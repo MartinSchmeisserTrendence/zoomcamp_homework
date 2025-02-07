@@ -14,6 +14,23 @@ terraform init, terraform apply -auto-approve, terraform destroy
 
 128.3 MB
 green_tripdata_2020-04.csv
+24648499
+1734051
+1925152
+Add a timezone property set to America/New_York in the Schedule trigger configuration
 
+
+
+------------------------ 03-data-warehouse ------------------------
+
+
+20332093
+0 MB for the External Table and 155.12 MB for the Materialized Table
+BigQuery is a columnar database, and it only scans the specific columns requested in the query. Querying two columns (PULocationID, DOLocationID) requires reading more data than querying one column (PULocationID), leading to a higher estimated number of bytes processed.
+8333
+Partition by tpep_dropoff_datetime and Cluster on VendorID
+310.24 MB for non-partitioned table and 26.84 MB for the partitioned table
+GCP Bucket
+False
 
 
